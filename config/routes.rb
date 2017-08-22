@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  resources :interviewprocesses
   devise_for :users
   ############    ROOT Route ##############
   root 'welcome#index'

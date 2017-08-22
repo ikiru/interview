@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Interview number:</strong>
+  <%= @interviewprocess.interview_number %>
+</p>
+
+<p>
+  <strong>Position:</strong>
+  <%= @interviewprocess.position_id %>
+</p>
+
+<p>
+  <strong>Interview type:</strong>
+  <%= @interviewprocess.interview_type_id %>
+</p>
+
+<p>
+  <strong>Question:</strong>
+  <%= @interviewprocess.question_id %>
+</p>
+
+<p>
+  <strong>Project:</strong>
+  <%= @interviewprocess.project_id %>
+</p>
+
+<p>
+  <strong>Comments:</strong>
+  <%= @interviewprocess.comments %>
+</p>
+
+<%= link_to 'Edit', edit_interviewprocess_path(@interviewprocess) %> |
+<%= link_to 'Back', interviewprocesses_path %>

@@ -34,9 +34,15 @@ gem 'rails-footnotes', '>= 4.0.0', '<5'
 
 gem 'simple_form'
 #rails generate simple_form:install
+#rails generate simple_form:install --bootstrap
+
 
 gem 'devise'
 # rails g devise:install
+
+gem 'cancancan', '~> 1.10'
+# rails g cancan:ability
+# https://github.com/CanCanCommunity/cancancan
 
 
 # Use Unicorn as the app server
